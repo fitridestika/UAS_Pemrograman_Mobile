@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/nav_header_background"
+    android:padding="16dp">
+
+    <!-- Profile Image -->
+    <ImageView
+        android:id="@+id/nav_header_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/fitri"
+        android:layout_gravity="center"
+        android:background="@drawable/circle_background"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="8dp" />
+
+    <!-- User Greeting -->
+    <TextView
+        android:id="@+id/nav_header_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello, Fitri Destika"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-medium"
+        android:layout_gravity="center"
+        android:layout_marginBottom="4dp" />
+
+    <!-- User Role or Status -->
+    <TextView
+        android:id="@+id/nav_header_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rekayasa Perangkat Lunak"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif"
+        android:layout_gravity="center" />
+</LinearLayout>

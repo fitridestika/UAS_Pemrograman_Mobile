@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="8dp"
+    android:layout_margin="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center">
+
+        <!-- Navbar / Title -->
+        <TextView
+            android:id="@+id/navbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Profile Developer"
+            android:textSize="22sp"
+            android:textColor="#FFFFFF"
+            android:background="#FF69B4"
+            android:padding="16dp"
+            android:elevation="4dp"
+            android:textAlignment="center" />
+
+        <!-- Profile Image -->
+        <ImageView
+            android:id="@+id/profile_image"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:contentDescription="Profile Image"
+            android:src="@drawable/fitri"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/circle_background"
+            android:scaleType="centerCrop" />
+
+        <!-- Profile Name -->
+        <TextView
+            android:id="@+id/profile_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Lengkap"
+            android:textSize="22sp"
+            android:textColor="#000000"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center" />
+
+        <!-- Profile Details -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="12dp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp">
+
+            <!-- Place of Birth -->
+            <TextView
+                android:id="@+id/profile_place_of_birth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tempat Lahir: Pedas"
+                android:textSize="16sp"
+                android:textColor="#666666"
+                android:layout_marginTop="6dp" />
+
+            <!-- Date of Birth -->
+            <TextView
+                android:id="@+id/profile_dob"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tanggal Lahir: 22 Desember 2003"
+                android:textSize="16sp"
+                android:textColor="#666666"
+                android:layout_marginTop="6dp" />
+
+            <!-- Address -->
+            <TextView
+                android:id="@+id/profile_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alamat: Jl. Pusara"
+                android:textSize="16sp"
+                android:textColor="#666666"
+                android:layout_marginTop="6dp" />
+
+            <!-- Phone Number -->
+            <TextView
+                android:id="@+id/profile_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Telepon: 085755315023"
+                android:textSize="16sp"
+                android:textColor="#666666"
+                android:layout_marginTop="6dp" />
+
+            <!-- Email -->
+            <TextView
+                android:id="@+id/profile_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email: fitridestika@gmail.com"
+                android:textSize="16sp"
+                android:textColor="#666666"
+                android:layout_marginTop="6dp" />
+
+            <!-- Class -->
+            <TextView
+                android:id="@+id/Kelas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kelas: 5C"
+                android:textSize="16sp"
+                android:textColor="#666666"
+                android:layout_marginTop="6dp" />
+
+            <!-- Program Study -->
+            <TextView
+                android:id="@+id/prodi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prodi: Rekayasa Perangkat Lunak"
+                android:textSize="16sp"
+                android:textColor="#666666"
+                android:layout_marginTop="6dp" />
+
+            <!-- Major -->
+            <TextView
+                android:id="@+id/jurusan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jurusan: Teknik Informatika"
+                android:textSize="16sp"
+                android:textColor="#666666"
+                android:layout_marginTop="6dp" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme -->
+    <style name="Base.Theme.UAS" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Tambahkan properti dasar di sini -->
+    </style>
+
+    <!-- Splash Screen Theme -->
+    <style name="SplashTheme" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/primary_color</item> <!-- Background splash screen -->
+        <item name="postSplashScreenTheme">@style/Theme.UAS</item> <!-- Tema setelah splash screen -->
+    </style>
+
+
+
+    <!-- Theme UAS untuk seluruh aplikasi -->
+    <style name="Theme.UAS" parent="Base.Theme.UAS" />
+</resources>
