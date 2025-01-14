@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity
 import id.ac.polbeng.fitridestika.uas.R
 import id.ac.polbeng.fitridestika.uas.databinding.ActivityProfileBinding
 
-
 class ProfileActivity : AppCompatActivity() {
 
     // Declare the binding variable
