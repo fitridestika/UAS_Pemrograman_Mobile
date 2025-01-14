@@ -8,7 +8,6 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import id.ac.polbeng.fitridestika.uas.databinding.FragmentHomeBinding
-import id.ac.polbeng.nurifdayanti.uas.CardAdapter
 
 
 class HomeFragment : Fragment() {

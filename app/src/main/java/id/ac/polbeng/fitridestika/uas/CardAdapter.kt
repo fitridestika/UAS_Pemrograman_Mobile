@@ -1,9 +1,8 @@
-package id.ac.polbeng.nurifdayanti.uas
+package id.ac.polbeng.fitridestika.uas
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import id.ac.polbeng.fitridestika.uas.Wisata
 import id.ac.polbeng.fitridestika.uas.databinding.ItemCardBinding
 
 class CardAdapter(

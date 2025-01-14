@@ -1,4 +1,4 @@
-package id.ac.polbeng.nurifdayanti.uas
+package id.ac.polbeng.fitridestika.uas
 
 class Config {
     companion object {

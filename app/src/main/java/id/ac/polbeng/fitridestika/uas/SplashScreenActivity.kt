@@ -2,10 +2,8 @@ package id.ac.polbeng.fitridestika.uas
 import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
-
 import androidx.appcompat.app.AppCompatActivity
 import id.ac.polbeng.fitridestika.uas.databinding.ActivitySplashScreenBinding
-import id.ac.polbeng.nurifdayanti.uas.Config
 
 
 class SplashScreenActivity : AppCompatActivity() {
